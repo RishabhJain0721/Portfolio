@@ -6,6 +6,23 @@
 .threedots{
     text-align: center;
 }
+button{
+    background-color: #337450;
+    border: none;
+    padding: 2%;
+    border-radius: 5%;
+}
+button>a{
+    text-decoration: none;
+    color: aliceblue;
+}
+button>a:hover{
+    transition-duration: 400ms;
+    color: black;
+}
+button>a:active{
+    color: rgb(74, 4, 19);
+}
 
 
 /* Intro */
@@ -154,6 +171,10 @@
     border-radius: 3%;
     background-image:linear-gradient(to bottom, #bef49a,#89daa8);
 }
+.workItem>div>h1{
+    text-align: center;
+    font-size: 2em;
+}
 .workImg{
     height: 10em;
     margin-bottom: 1em;
@@ -277,6 +298,9 @@
     .workItem{
         font-size: 0.8em;
     }
+    .workItem>div>h1{
+        font-size: 1.5em;
+    }
     .workImg{
         height: 9em;
     }
@@ -368,6 +392,9 @@
     }
     .workImg{
         height: 7em;
+    }
+    .workItem>div>h1{
+        font-size: 1em;
     }
     
     /* Hobbies */

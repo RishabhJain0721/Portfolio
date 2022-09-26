@@ -316,10 +316,12 @@
      /* Intro */
 
     .profile{
-        height: 4em;
+        height: 3em;
+        margin: 35%;
     }
     .navele>a{
-        margin:0.4em;
+        margin: 0.4em;
+        font-size: 90%;
     }
     .navele>a:hover{
         transform: translateY(-4px);
@@ -331,13 +333,13 @@
         height: 3em;
     }
     .name{
-        font-size:600%;
+        font-size:550%;
     }
     .work{
         font-size: 160%;
     }
     .mountainInner{
-        height: 13em;
+        height: 10em;
     }
 
     /* About */
@@ -360,6 +362,9 @@
 
     .workHeading{
         font-size: 1.3em;
+    }
+    .workItem{
+        width: 80%;
     }
     .workImg{
         height: 7em;
